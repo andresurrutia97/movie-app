@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<User/> should render correcty  1`] = `
+<div
+  className="pt-16 my-4 mx-5 md:w-6/12 md:mx-auto md:mt-16"
+>
+  <div
+    className="text-2xl text-white md:text-6xl text-center md:text-left"
+  >
+    Profile
+  </div>
+  <div
+    className="spinner"
+  />
+</div>
+`;

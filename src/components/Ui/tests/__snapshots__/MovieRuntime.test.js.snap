@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieRuntime/> should render correctly  1`] = `
+<div
+  className="w-auto inline-block rounded-full custom-pink-bg py-1 px-3 my-3"
+>
+  123 min
+</div>
+`;

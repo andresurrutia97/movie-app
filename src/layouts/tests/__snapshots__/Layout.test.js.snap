@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout/> should render correctly  1`] = `
+<div
+  className="flex"
+>
+  <nav
+    className="w-full h-16 fixed px-4 py-3 z-10 transition-colors duration-500 custom-black-header-grad"
+  >
+    <div
+      className="w-full flex justify-center items-center relative md:px-16 "
+    >
+      <div
+        className="block absolute left-0 md:hidden"
+      >
+        <button
+          className="flex items-center text-white"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="material-icons"
+          >
+            menu
+          </span>
+        </button>
+      </div>
+      <span
+        className="font-semibold flex justify-center custom-blue-text text-2xl"
+      >
+        Uruflix
+      </span>
+      <div
+        className=" hidden md:ml-8 md:w-full md:block md:flex md:justify-between"
+      >
+        <ul
+          className="flex flex-col text-sm text-white md:flex-row md:items-center"
+        >
+          <li>
+            <a
+              aria-current="page"
+              className="flex items-center ml-6 active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              <span>
+                Home
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="flex items-center ml-6"
+              href="/user"
+              onClick={[Function]}
+            >
+              <span>
+                Profile
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              className="flex items-center ml-6"
+              href="/toc"
+              onClick={[Function]}
+            >
+              <span>
+                ToC
+              </span>
+            </a>
+          </li>
+        </ul>
+        <div
+          className="relative"
+        >
+          <button
+            className="relative z-10 block h-8 w-8 rounded-full overflow-hidden border-2 custom-blue-border focus:outline-none"
+            onClick={[Function]}
+            type="button"
+          >
+            <img
+              alt="Your avatar"
+              className="h-full w-full object-cover"
+              src="default-user-image.png"
+            />
+          </button>
+          <div
+            className="hidden absolute right-0 mt-2 py-2 text-sm w-48 bg-white rounded custom-shadow"
+          >
+            <div
+              className="flex justify-between itms-center text-gray-700 py-2 px-5 cursor-pointer"
+              onClick={[Function]}
+              role="presentation"
+            >
+              Profile
+              <span
+                className="material-icons"
+              >
+                person
+              </span>
+            </div>
+            <div
+              className="flex justify-between itms-center text-gray-700 py-2 px-5 cursor-pointer"
+              onClick={[Function]}
+              role="presentation"
+            >
+              <div>
+                Logout
+              </div>
+              <span
+                className="material-icons"
+              >
+                exit_to_app
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="fixed w-full h-full bg-black opacity-50 z-30 hidden"
+    onClick={[Function]}
+    role="presentation"
+  />
+  <div
+    className="h-full sidebar-width bg-black fixed py-6 transition-transform duration-300 ease-in-out z-30 md:hidden sidebar-close"
+  >
+    <div
+      className="h-full flex flex-col items-center"
+    >
+      <img
+        alt="logo"
+        className="w-48"
+        src="logoWeb.png"
+      />
+      <ul
+        className="w-full h-full mt-10 flex flex-col justify-between text-gray-300"
+      >
+        <div>
+          <li
+            className="item-sidebar"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <a
+              aria-current="page"
+              className="flex items-center active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                Home
+              </span>
+            </a>
+          </li>
+          <li
+            className="item-sidebar"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <a
+              aria-current={null}
+              className="flex items-center"
+              href="/user"
+              onClick={[Function]}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                Profile
+              </span>
+            </a>
+          </li>
+          <li
+            className="item-sidebar"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <a
+              aria-current={null}
+              className="flex items-center"
+              href="/toc"
+              onClick={[Function]}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                ToC
+              </span>
+            </a>
+          </li>
+        </div>
+        <li
+          className="flex justify-between ml-2 itms-center text-gray-400 py-2 px-5 cursor-pointer"
+          onClick={[Function]}
+          role="presentation"
+        >
+          Logout
+          <span
+            className="material-icons"
+          >
+            exit_to_app
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="w-full h-full mt-16px md:mt-0"
+  />
+</div>
+`;

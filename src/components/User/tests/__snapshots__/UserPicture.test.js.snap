@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserPicture/> should render correctly  1`] = `
+<img
+  alt="profile"
+  className="h-32 w-32 mb-5 m-auto rounded-full shadow-lg shadow-md md:m-0 md:mr-12"
+  src="default-user-image.png"
+/>
+`;

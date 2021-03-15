@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewsContent/> should render correctly  1`] = `
+<div
+  className="pt-16 my-4 mx-5 md:w-6/12 md:mx-auto md:mt-16"
+>
+  <div>
+    Test
+  </div>
+</div>
+`;

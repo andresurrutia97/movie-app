@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleButton /> should render correctly 1`] = `
+<div
+  className="block absolute left-0 md:hidden"
+>
+  <button
+    className="flex items-center text-white"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <span
+      className="material-icons"
+    >
+      menu
+    </span>
+  </button>
+</div>
+`;

@@ -1,0 +1,35 @@
+.slider-item {
+  flex: 0 0 40.7%;
+  transition: transform 300ms ease 100ms;
+  margin: 0 5px;
+  position: relative;
+}
+
+.slider-item .slider-item__img {
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .slider-item {
+    flex: 0 0 23.6%;
+  }
+
+  .slider-item:hover .show-details-button {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slider-item {
+    flex: 0 0 19.1%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .slider-item {
+    flex: 0 0 13.5%;
+  }
+}

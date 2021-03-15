@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar/> should render correctly 1`] = `
+Array [
+  <div
+    className="fixed w-full h-full bg-black opacity-50 z-30 hidden"
+    onClick={[MockFunction]}
+    role="presentation"
+  />,
+  <div
+    className="h-full sidebar-width bg-black fixed py-6 transition-transform duration-300 ease-in-out z-30 md:hidden sidebar-close"
+  >
+    <div
+      className="h-full flex flex-col items-center"
+    >
+      <img
+        alt="logo"
+        className="w-48"
+        src="logoWeb.png"
+      />
+      <ul
+        className="w-full h-full mt-10 flex flex-col justify-between text-gray-300"
+      >
+        <div>
+          <li
+            className="item-sidebar"
+            onClick={[MockFunction]}
+            role="presentation"
+          >
+            <a
+              aria-current="page"
+              className="flex items-center active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                Home
+              </span>
+            </a>
+          </li>
+          <li
+            className="item-sidebar"
+            onClick={[MockFunction]}
+            role="presentation"
+          >
+            <a
+              aria-current={null}
+              className="flex items-center"
+              href="/user"
+              onClick={[Function]}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                Profile
+              </span>
+            </a>
+          </li>
+          <li
+            className="item-sidebar"
+            onClick={[MockFunction]}
+            role="presentation"
+          >
+            <a
+              aria-current={null}
+              className="flex items-center"
+              href="/toc"
+              onClick={[Function]}
+            >
+              <div
+                className="flag"
+              />
+              <span
+                className="ml-5"
+              >
+                ToC
+              </span>
+            </a>
+          </li>
+        </div>
+        <li
+          className="flex justify-between ml-2 itms-center text-gray-400 py-2 px-5 cursor-pointer"
+          onClick={[Function]}
+          role="presentation"
+        >
+          Logout
+          <span
+            className="material-icons"
+          >
+            exit_to_app
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;

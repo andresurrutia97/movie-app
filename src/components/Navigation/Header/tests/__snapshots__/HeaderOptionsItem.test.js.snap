@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderOptionsItem /> should render correctly 1`] = `
+<a
+  aria-current={null}
+  className="flex items-center ml-6"
+  href="/home"
+  onClick={[Function]}
+>
+  <span>
+    Home
+  </span>
+</a>
+`;

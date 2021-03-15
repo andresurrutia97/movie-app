@@ -1,0 +1,129 @@
+.slider-content {
+  position: relative;
+  height: 75vw; /* se modifica */
+  margin-top: -20px; /* se modifica */
+}
+.slider-content__background,
+.slider-content__background__shadow,
+.slider-content__background__image,
+.slider-content__area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.slider-content__background {
+  left: 0;
+  right: 0;
+}
+.slider-content__background__shadow {
+  position: absolute;
+  left: 0;
+  background: #000;
+  z-index: 2;
+}
+.slider-content__background__shadow:before {
+  content: '';
+  position: absolute;
+  z-index: 10;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+}
+
+.slider-content__background__image {
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.slider-content__area {
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 3;
+}
+
+.slider-content__area__container {
+  padding: 30px;
+  padding-left: 20px;
+  color: wheat;
+}
+
+.slider-content__title {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  max-width: 1440px;
+}
+
+.slider-content__description {
+  display: none;
+  font-size: 16px;
+  color: #d1d1d1;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.slider-content__close {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #00000049;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-content__close:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .slider-content {
+    height: 37vw;
+    margin-top: -35px;
+  }
+
+  .slider-content__background__shadow {
+    width: 30%;
+  }
+
+  .slider-content__background__shadow:before {
+    background-image: linear-gradient(to right, #000, transparent);
+    left: 100%;
+    width: 275px;
+    height: 100%;
+  }
+
+  .slider-content__background__image {
+    width: 70%;
+  }
+
+  .slider-content__area__container {
+    padding-left: 90px;
+  }
+
+  .slider-content__title {
+    text-align: left;
+    font-size: 45px;
+  }
+
+  .slider-content__description {
+    display: block;
+    font-size: 18px;
+    color: #b3b3b3;
+  }
+}

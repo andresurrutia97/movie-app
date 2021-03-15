@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageCard/> should render correcty  1`] = `
+<div
+  className="custom-poster-card rounded-lg shadow-lg"
+  style={
+    Object {
+      "backgroundImage": "url('path')",
+    }
+  }
+/>
+`;

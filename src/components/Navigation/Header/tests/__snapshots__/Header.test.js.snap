@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly  1`] = `
+<nav
+  className="w-full h-16 fixed px-4 py-3 z-10 transition-colors duration-500 custom-black-header-grad"
+>
+  <div
+    className="w-full flex justify-center items-center relative md:px-16 "
+  >
+    <div
+      className="block absolute left-0 md:hidden"
+    >
+      <button
+        className="flex items-center text-white"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="material-icons"
+        >
+          menu
+        </span>
+      </button>
+    </div>
+    <span
+      className="font-semibold flex justify-center custom-blue-text text-2xl"
+    >
+      Uruflix
+    </span>
+    <div
+      className=" hidden md:ml-8 md:w-full md:block md:flex md:justify-between"
+    >
+      <ul
+        className="flex flex-col text-sm text-white md:flex-row md:items-center"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="flex items-center ml-6 active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            <span>
+              Home
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="flex items-center ml-6"
+            href="/user"
+            onClick={[Function]}
+          >
+            <span>
+              Profile
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            className="flex items-center ml-6"
+            href="/toc"
+            onClick={[Function]}
+          >
+            <span>
+              ToC
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div
+        className="relative"
+      >
+        <button
+          className="relative z-10 block h-8 w-8 rounded-full overflow-hidden border-2 custom-blue-border focus:outline-none"
+          onClick={[Function]}
+          type="button"
+        >
+          <img
+            alt="Your avatar"
+            className="h-full w-full object-cover"
+            src="default-user-image.png"
+          />
+        </button>
+        <div
+          className="hidden absolute right-0 mt-2 py-2 text-sm w-48 bg-white rounded custom-shadow"
+        >
+          <div
+            className="flex justify-between itms-center text-gray-700 py-2 px-5 cursor-pointer"
+            onClick={[Function]}
+            role="presentation"
+          >
+            Profile
+            <span
+              className="material-icons"
+            >
+              person
+            </span>
+          </div>
+          <div
+            className="flex justify-between itms-center text-gray-700 py-2 px-5 cursor-pointer"
+            onClick={[Function]}
+            role="presentation"
+          >
+            <div>
+              Logout
+            </div>
+            <span
+              className="material-icons"
+            >
+              exit_to_app
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

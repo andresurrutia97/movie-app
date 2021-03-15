@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarOptions /> should render correctly 1`] = `
+<ul
+  className="w-full h-full mt-10 flex flex-col justify-between text-gray-300"
+>
+  <div>
+    <li
+      className="item-sidebar"
+      onClick={[MockFunction]}
+      role="presentation"
+    >
+      <a
+        aria-current="page"
+        className="flex items-center active"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <div
+          className="flag"
+        />
+        <span
+          className="ml-5"
+        >
+          Home
+        </span>
+      </a>
+    </li>
+  </div>
+  <li
+    className="flex justify-between ml-2 itms-center text-gray-400 py-2 px-5 cursor-pointer"
+    onClick={[Function]}
+    role="presentation"
+  >
+    Logout
+    <span
+      className="material-icons"
+    >
+      exit_to_app
+    </span>
+  </li>
+</ul>
+`;

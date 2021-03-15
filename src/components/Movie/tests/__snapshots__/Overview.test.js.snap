@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overview/> should render correctly  1`] = `
+<p
+  className="text-sm text-justify text-white"
+>
+  overview
+</p>
+`;

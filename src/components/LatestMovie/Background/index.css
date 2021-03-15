@@ -1,0 +1,11 @@
+.latest-movie__img {
+  filter: blur(1px);
+  opacity: 0.6;
+  margin-top: 64px;
+}
+
+@media (min-width: 768px) {
+  .latest-movie__img {
+    margin-top: 0;
+  }
+}

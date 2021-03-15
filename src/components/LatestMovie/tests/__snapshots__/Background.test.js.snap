@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Background/> should render correctly  1`] = `
+<img
+  alt=""
+  className="w-full latest-movie__img"
+  src="https://image.tmdb.org/t/p/original/imgPath"
+/>
+`;

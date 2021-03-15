@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImgBackground/> should render correctly  1`] = `
+<div
+  className="w-screen h-screen bg-cover img-flip opacity-5  "
+  style={
+    Object {
+      "backgroundImage": "url('/imgPath')",
+    }
+  }
+/>
+`;

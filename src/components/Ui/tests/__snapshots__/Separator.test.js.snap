@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Separator/> should render correctly  1`] = `
+<hr
+  className="mb-5 border-gray-600"
+/>
+`;

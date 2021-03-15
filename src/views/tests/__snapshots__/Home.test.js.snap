@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> should render correcty  1`] = `
+Array [
+  <div
+    className="spinner"
+  />,
+  <div
+    className="spinner"
+  />,
+  <div
+    className="spinner"
+  />,
+]
+`;

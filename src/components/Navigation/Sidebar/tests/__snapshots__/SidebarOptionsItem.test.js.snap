@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarOptionsItem /> should render correctly 1`] = `
+<a
+  aria-current={null}
+  className="flex items-center"
+  href="/home"
+  onClick={[Function]}
+>
+  <div
+    className="flag"
+  />
+  <span
+    className="ml-5"
+  >
+    Home
+  </span>
+</a>
+`;

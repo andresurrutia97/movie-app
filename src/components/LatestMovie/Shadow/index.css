@@ -1,0 +1,8 @@
+.latest-movie__shadow {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -5px;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to top, #000, transparent);
+}

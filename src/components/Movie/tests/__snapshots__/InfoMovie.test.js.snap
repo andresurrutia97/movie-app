@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoMovie/> should render correctly  1`] = `
+<div
+  className="w-full flex flex-col items-center px-5 mb-5 md:w-full md:px-20 md:items-start"
+>
+  <div
+    className="flex flex-col w-full mt-5 items-center md:flex-row md:justify-between md:items-center md:mt-6"
+  >
+    <h2
+      className="font-semibold text-xl custom-blue-text uppercase text-center md:text-left md:text-4xl"
+    >
+      title
+    </h2>
+    <div
+      className=" right-0 mt-1 md:mt-0"
+    >
+      <button
+        className="flex items-center justify-center focus:outline-none bg-gray-800 rounded-full p-1 shadow-md "
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="material-icons  custom-blue-text  text-black"
+        >
+          star
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="my-4"
+  >
+    horror
+  </div>
+  <div
+    className="flex justify-around mb-2 md:justify-start"
+  >
+    <div
+      className="flex flex-col items-center mx-2 md:flex-row md:mx-0 md:mr-2"
+    >
+      <span
+        className="text-sm text-white"
+      >
+        Year
+      </span>
+      <span
+        className="hidden md:block md:mr-2"
+      >
+        :
+      </span>
+      <span
+        className="font-semibold text-white md:mr-2"
+      >
+        2020
+      </span>
+    </div>
+    <div
+      className="flex flex-col items-center mx-2 md:flex-row md:mx-0 md:mr-2"
+    >
+      <span
+        className="text-sm text-white"
+      >
+        Country
+      </span>
+      <span
+        className="hidden md:block md:mr-2"
+      >
+        :
+      </span>
+      <span
+        className="font-semibold text-white md:mr-2"
+      >
+        
+      </span>
+    </div>
+    <div
+      className="flex flex-col items-center mx-2 md:flex-row md:mx-0 md:mr-2"
+    >
+      <span
+        className="text-sm text-white"
+      >
+        Duration
+      </span>
+      <span
+        className="hidden md:block md:mr-2"
+      >
+        :
+      </span>
+      <span
+        className="font-semibold text-white md:mr-2"
+      >
+        98 min
+      </span>
+    </div>
+  </div>
+  <div
+    className="md:w-6/12"
+  >
+    <p
+      className="text-sm text-justify text-white"
+    >
+      overview
+    </p>
+  </div>
+</div>
+`;

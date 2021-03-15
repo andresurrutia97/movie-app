@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserForm/> should render correctly  1`] = `
+<div
+  className="w-full"
+>
+   
+  <div
+    className="mb-1"
+  >
+    <div
+      className="text-white mb-2"
+    >
+      Name
+    </div>
+    <input
+      className="box-border bg-black appearance-none rounded border border-2 custom-blue-border w-full py-3 px-4 text-white mb-3 leading-tight focus:outline-none"
+      onChange={[Function]}
+      placeholder="Name"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-1"
+  >
+    <div
+      className="text-white mb-2"
+    >
+      Phone
+    </div>
+    <input
+      className="box-border bg-black appearance-none rounded border border-2 custom-blue-border w-full py-3 px-4 text-white mb-3 leading-tight focus:outline-none"
+      onChange={[Function]}
+      placeholder="Phone number"
+      type="number"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-1"
+  >
+    <div
+      className="text-white mb-2"
+    >
+      Picture
+    </div>
+    <input
+      className="box-border bg-black appearance-none rounded border border-2 custom-blue-border w-full py-3 px-4 text-white mb-3 leading-tight focus:outline-none"
+      onChange={[Function]}
+      placeholder="Picture url"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mb-1"
+  >
+    <div
+      className="text-white mb-2"
+    >
+      Description
+    </div>
+    <input
+      className="box-border bg-black appearance-none rounded border border-2 custom-blue-border w-full py-3 px-4 text-white mb-3 leading-tight focus:outline-none"
+      onChange={[Function]}
+      placeholder="Description"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

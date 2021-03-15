@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieTitle/> should render correctly  1`] = `
+<h2
+  className="font-bold text-lg md:text-4xl lg:text-5xl"
+>
+  Test
+</h2>
+`;

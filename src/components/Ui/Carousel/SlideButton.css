@@ -1,0 +1,42 @@
+.slide-button {
+  display: none;
+}
+
+.slide-button:focus {
+  outline: none;
+}
+
+.slide-icon {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .slide-button {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 76px;
+    background: #000000a9;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 40px 0;
+    z-index: 4;
+  }
+
+  .slide-icon {
+    width: 25px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .slide-button__prev {
+    left: 0;
+  }
+
+  .slide-button__next {
+    right: 0;
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title/> should render correctly  1`] = `
+<h2
+  className="font-semibold text-xl custom-blue-text uppercase text-center md:text-left md:text-4xl"
+>
+  Test
+</h2>
+`;

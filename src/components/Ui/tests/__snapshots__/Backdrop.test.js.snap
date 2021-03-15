@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Backdrop/> should render correctly 1`] = `
+<div
+  className="fixed w-full h-full bg-black opacity-50 z-30 hidden"
+  onClick={[MockFunction]}
+  role="presentation"
+/>
+`;
